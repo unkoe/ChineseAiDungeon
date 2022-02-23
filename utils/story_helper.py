@@ -6,7 +6,7 @@ import sys
 from tf2gpt.model import GPT
 from utils.story_util import Story,Stories
 from utils.progress_bar import ProgressBar
-from tensorflow.keras.utils import multi_gpu_model
+from tensorflow.python.keras.utils.multi_gpu_utils import multi_gpu_model
 import random
 import textwrap
 from utils.gpt2_tokenizer import GPT2Tokenizer
